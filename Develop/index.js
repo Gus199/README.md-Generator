@@ -11,11 +11,18 @@ const questions = [{
     message: "What is the title of the project?",
     name: "Title"
 }, 
+
+{
+    type: "input",
+    message: "Please give your GitHub profile link.",
+    name: "GitHub"
+},
 {
     type: "input",
     message: "What is the project about? Give a detailed description of your project?",
     name: "Description"
 },
+
  {
     type: "input",
     message: "Table of Contents.",
@@ -23,7 +30,7 @@ const questions = [{
 }, 
 {
     type: "input",
-    message: "What does the user need to install to run this app (ie...dependencies)?",
+    message: "What does the user need to install and run this app (ie...dependencies)?",
     name: "Installation"
 }, 
 {
@@ -32,35 +39,27 @@ const questions = [{
     name: "Usage"
 }, 
 {
-    type: "input",
-    message: "What liscence is being used? (ie...MIT)",
-    name: "License"
+    type: "list",
+    name: "License",
+    message: "What kind of license should your project have?",
+    choices: ["MIT","APACHE 2.0","GPL 3.0","BSD 3","None"]
 }, 
 {
     type: "input",
     message: "Who contributed to this project?:",
-    name: "Contributing"
+    name: "Contributor"
 }, 
 {
     type: "input",
     message: "What commands are needed to test this app?",
-    name: "Tests"
+    name: "Test"
 }, 
 {
-    type: "input",
-    message: "Contact info for inquiries.",
-    name: "Questions"
-},
- {
-    type: 'input',
-    message: 'What is your Github username?',
-    name: 'Username'
-},
- {
     type: 'input',
     message: 'What is your email address?',
     name: 'Email'
 },
+
 
 ]
 
