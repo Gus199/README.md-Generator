@@ -5,112 +5,94 @@ const fs = require("fs");
 const util = require('util');
 const generatorMarkdown = require("./utils/generateMarkdown")
 
-// Questions asked to the user
-const questions = [
-  {
+// array of questions for user
+const questions = [{
     type: "input",
-    message: "What is the title of your repository?",
-    name: "title"
-},{
+    message: "What is the title of the project?",
+    name: "Title"
+}, 
+{
     type: "input",
-    message: "Please give your logo information.",
-    name: "logo"
-},{
+    message: "What is the project about? Give a detailed description of your project?",
+    name: "Description"
+},
+ {
     type: "input",
-    message: "What is your GitHub user name?",
-    name: "userName"
-},{
+    message: "Table of Contents.",
+    name: "Table of Contents"
+}, 
+{
     type: "input",
-    message: "Please give your GitHub profile link.",
-    name: "GitHub"
-},{
+    message: "What does the user need to install to run this app (ie...dependencies)?",
+    name: "Installation"
+}, 
+{
     type: "input",
-    message: "What is your email?",
-    name: "email"
-},{
-    type: "list",
-    name: "license",
-    message: "Please select which license you would like to use.",
-    choices : [
-        "APACHE 2.O",
-        "BSD 3",
-        "GVL-GPL 3.0",
-        "MIT",
-        "None"
-    ],
-},{
+    message: "How is the app used? Give instructions",
+    name: "Usage"
+}, 
+{
     type: "input",
-    message: "Please describe the repository.",
-    name: "description"
+    message: "What liscence is being used? (ie...MIT)",
+    name: "License"
+}, 
+{
+    type: "input",
+    message: "Who contributed to this project?:",
+    name: "Contributing"
+}, 
+{
+    type: "input",
+    message: "What commands are needed to test this app?",
+    name: "Tests"
+}, 
+{
+    type: "input",
+    message: "Contact info for inquiries.",
+    name: "Questions"
+},
+ {
+    type: 'input',
+    message: 'What is your Github username?',
+    name: 'Username'
+},
+ {
+    type: 'input',
+    message: 'What is your email address?',
+    name: 'Email'
+},
 
-},{
-    type: "input",
-    message: "Please state if others can contribute.",
-    name: "contribute"
-},{
-    type: "input",
-    message: "Please state any test(s) require (1/3).",
-    name: "test"
-},{
-    type: "input",
-    message: "Please state any test(s) require(2/3).",
-    name: "test2"
-},{
-    type: "input",
-    message: "Please state any test(s) require (3/3).",
-    name: "test3",
-},{
-    type: "input",
-    message: "State your accomplishments.",
-    name: "accomplish"
-},{
-    type: "input",
-    message: "Please state provide a screenshot (1 of 3).",
-    name: "scriptjs"
-},{
-    type: "input",
-    message: "Please state provide a screenshot (2 of 3).",
-    name: "fileGnerator"
-},{
-    type: "input",
-    message: "Please state provide a screenshot (3 of 3).",
-    name: "ReadMe"
-},{
-    type: "input",
-    message: "Please supply two references (1/2).",
-    name: "ref1"
-},{
-    type: "input",
-    message: "Please supply two references (2/2).",
-    name: "ref2"
-},{
-    type: "input",
-    message: "Please state your end-goal.",
-    name: "endgoal"
-}
-];
+]
 
-// Writing to a file 
+// function to write README file
 function writeToFile(fileName, data) {
 
-fs.writeFile("./ReadMe.md", data, function(err) {
-  if (err) {
-    return console.log(err);
-  }
-  console.log ("Successfully wrote: " + fileName);
-})
+    fs.writeFile(fileName, data, function(err) {
+        console.log(fileName)
+        console.log(data)
+        if (err) {
+            return console.log(err)
+        } else {
+            console.log("success")
+        }
+    })
 
 }
 
 
-// initialization function
+
+
+
+// function to initialize program
 function init() {
-  inquirer.prompt(questions)
-  .then(function(data) {
-    writeToFile("DemoREADME.md", generatorMarkdown(data));
-  })
+    inquirer.prompt(questions)
+        .then(function(data) {
+            writeToFile("README.md", generatorMarkdown(data));
+            console.log(data)
+
+        })
+
 }
 
-
-// run the app
+// function call to initialize program
 init();
