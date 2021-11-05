@@ -30,7 +30,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return`
 # ${data.Title}
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](${data.GitHub})
+#[Github link](${data.GitHub})
 # Description
 ${data.Description}
 # Table of Contents 
@@ -45,7 +45,7 @@ The following necessary dependencies must be installed to run the application pr
 # Usage
 ​This application is used for ${data.Usage}
 # License
-This project is license under the ${data.License} license.
+This project is license under the [${data.License} License](LICENSE)license.
 # Contributing
 ​Contributors: ${data.Contributor}
 # Tests
