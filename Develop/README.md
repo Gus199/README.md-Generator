@@ -1,8 +1,9 @@
 
-# EADME.md_Generator
-#[Github link](https://github.com/Gus199)
+# README.md_Generator
+# Github Link:
+ [](https://github.com/Gus199)
 # Description
-This project will help a developer to quickly generate a README.md file for their projects
+ This project will help a developer to quickly generate a README.md file for their projects
 # Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -18,6 +19,8 @@ The following necessary dependencies must be installed to run the application pr
 This project is license under the [MIT License](LICENSE)license.
 # Contributing
 ​Contributors: not yet
+# Video Link:
+ [](https://watch.screencastify.com/v/EFobkIo5lM5hObRMFaa7)
 # Tests
 To run tests, you need to run the following command: node.js
 # Questions

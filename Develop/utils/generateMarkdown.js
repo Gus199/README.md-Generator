@@ -30,7 +30,8 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return`
 # ${data.Title}
-#[Github link](${data.GitHub})
+# Github Link:
+ [](${data.GitHub})
 # Description
 ${data.Description}
 # Table of Contents 
@@ -48,6 +49,8 @@ The following necessary dependencies must be installed to run the application pr
 This project is license under the [${data.License} License](LICENSE)license.
 # Contributing
 ​Contributors: ${data.Contributor}
+# Video Link:
+ [](https://watch.screencastify.com/v/EFobkIo5lM5hObRMFaa7)
 # Tests
 To run tests, you need to run the following command: ${data.Test}
 # Questions
