@@ -47,7 +47,7 @@ The following necessary dependencies must be installed to run the application pr
 ​This application is used for ${data.Usage}
 # License
 This project is license under the [${data.License} License](LICENSE).
-# Contributing
+# Contributing  
 ​Contributors: ${data.Contributor}
 # Video Link:
  [Video Link](https://watch.screencastify.com/v/y2ngxQeGbBfX3GveIF5p)
