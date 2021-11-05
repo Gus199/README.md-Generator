@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   return`
 # ${data.Title}
 # Github Link:
- [Link to my Github](${data.GitHub})
+ [Github Link](${data.GitHub})
 # Description
 ${data.Description}
 # Table of Contents 
@@ -46,7 +46,7 @@ The following necessary dependencies must be installed to run the application pr
 # Usage
 ​This application is used for ${data.Usage}
 # License
-This project is license under the [![GitHub license](${data.License})](${data.License}).
+This project is license under the [${data.License} License](LICENSE).
 # Contributing
 ​Contributors: ${data.Contributor}
 # Video Link:
