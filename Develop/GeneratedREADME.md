@@ -3,7 +3,7 @@
 # Github Link:
  [Link to my Github](https://github.com/Gus199)
 # Description
- This project will help a developer to quickly generate a README.md file for their projects
+This project will help a developer to quickly generate a README.md file for their projects
 # Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -16,7 +16,7 @@ The following necessary dependencies must be installed to run the application pr
 # Usage
 ​This application is used for This application will ask you question and base on your answers it will generate a README file
 # License
-This project is license under the [MIT License](LICENSE)license.
+This project is license under the [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](MIT).
 # Contributing
 ​Contributors: not yet
 # Video Link:
