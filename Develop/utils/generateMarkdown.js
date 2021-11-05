@@ -46,7 +46,7 @@ The following necessary dependencies must be installed to run the application pr
 # Usage
 ​This application is used for ${data.Usage}
 # License
-This project is license under the [${data.License} License](LICENSE).
+#### README.md_Generator 2021 All Rights Reserved.  [${response.license}](LICENSE) All material must be cited or credited, when using material (free to use).
 # Contributing  
 ​Contributors: ${data.Contributor}
 # Video Link:
