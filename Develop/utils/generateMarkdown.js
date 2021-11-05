@@ -46,11 +46,11 @@ The following necessary dependencies must be installed to run the application pr
 # Usage
 ​This application is used for ${data.Usage}
 # License
-This project is license under the [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](${data.License}).
+This project is license under the [![GitHub license](${data.License})](${data.License}).
 # Contributing
 ​Contributors: ${data.Contributor}
 # Video Link:
- [Video Link](https://watch.screencastify.com/v/EFobkIo5lM5hObRMFaa7)
+ [Video Link](https://watch.screencastify.com/v/y2ngxQeGbBfX3GveIF5p)
 # Tests
 To run tests, you need to run the following command: ${data.Test}
 # Questions

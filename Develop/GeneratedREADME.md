@@ -16,11 +16,11 @@ The following necessary dependencies must be installed to run the application pr
 # Usage
 ​This application is used for This application will ask you question and base on your answers it will generate a README file
 # License
-This project is license under the [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](MIT).
+This project is license under the [![GitHub license]()](MIT).
 # Contributing
 ​Contributors: not yet
 # Video Link:
- [Video Link](https://watch.screencastify.com/v/EFobkIo5lM5hObRMFaa7)
+ [Video Link](https://watch.screencastify.com/v/y2ngxQeGbBfX3GveIF5p)
 # Tests
 To run tests, you need to run the following command: node.js
 # Questions
