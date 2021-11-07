@@ -21,11 +21,12 @@ I want to enter my email address; and then this is added to the section of the R
 * [Video Link](https://watch.screencastify.com/v/y2ngxQeGbBfX3GveIF5p)
 
 # Screen Shots :
+
 * ![screenshot1](./Develop/images/screenshot1.png)
-* ![screenshot1](./Develop/images/screenshot2.png)
-* ![screenshot1](./Develop/images/screenshot3.png)
-* ![screenshot1](./Develop/images/screenshot4.png)
-* ![screenshot1](./Develop/images/screenshot5.png)
+* ![screenshot2](./Develop/images/screenshot2.png)
+* ![screenshot3](./Develop/images/screenshot3.png)
+* ![screenshot4](./Develop/images/screenshot4.png)
+* ![screenshot5](./Develop/images/screenshot5.png)
 
 # Installation:
 Download the template through GitHub.
