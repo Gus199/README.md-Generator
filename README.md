@@ -18,14 +18,13 @@ I want to enter my email address; and then this is added to the section of the R
 
 # Video Link :
 
-[Video Link](https://watch.screencastify.com/v/y2ngxQeGbBfX3GveIF5p)
+* [Video Link](https://watch.screencastify.com/v/y2ngxQeGbBfX3GveIF5p)
 
 # Screen Shots :
-![screenshot1](screenshot1.png)
-![screenshot1](screenshot2.png)
-![screenshot1](screenshot13.png)
-![screenshot1](screenshot4.png)
-![screenshot1](screenshot5.png)
+* ![screenshot1](./Develop/images/screenshot1.png)
+* ![screenshot1](./Develop/images/screenshot13.png)
+* ![screenshot1](./Develop/images/screenshot4.png)
+* ![screenshot1](./Develop/images/screenshot5.png)
 
 # Installation:
 Download the template through GitHub.
@@ -41,8 +40,8 @@ Once all prompts have been answered then a README.md will be created with the us
 
 # Contributing:
 
-not contributed yet
+* not contributed yet
 # Test :
-Not test yet
+* Not test yet
 # Quetions :
 feel free to email me for further questions at my Email : augustine2903a@gmail.com
