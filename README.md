@@ -22,7 +22,8 @@ I want to enter my email address; and then this is added to the section of the R
 
 # Screen Shots :
 * ![screenshot1](./Develop/images/screenshot1.png)
-* ![screenshot1](./Develop/images/screenshot13.png)
+* ![screenshot1](./Develop/images/screenshot2.png)
+* ![screenshot1](./Develop/images/screenshot3.png)
 * ![screenshot1](./Develop/images/screenshot4.png)
 * ![screenshot1](./Develop/images/screenshot5.png)
 
